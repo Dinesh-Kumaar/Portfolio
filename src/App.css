@@ -20,6 +20,31 @@
     font-family: 'Roboto';
 }
 
+/* About */
+.about-bg-container{
+    background-color: white;
+    border-radius: 16px;
+}
+.about-profile-image {
+    height: auto;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+.about-bg-container .about-link {
+    background-color: grey;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* Skill */
+.skill-bg-card {
+    background-color: white;
+    border-radius: 16px;
+}
 
 
 @media (max-width: 768px) {
@@ -28,7 +53,8 @@
         margin: 0 auto;
     }
     .profile-name,
-    .profile-desc {
+    .profile-desc,
+    .about-bg-container {
         
         text-align: center;
     }
